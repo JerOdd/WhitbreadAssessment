@@ -40,8 +40,10 @@ class UIVenuesTableViewController: UITableViewController, UISearchBarDelegate, B
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
     {
-        let appDelegate : AppDelegate = (UIApplication.sharedApplication().delegate as? AppDelegate)!
-        splitViewController?.showDetailViewController(appDelegate.venuesDetailsViewController!, sender: nil)
+        let venuesDetailsViewController : UIVenuesDetailsViewController = (UIApplication.sharedApplication().delegate as? AppDelegate)!.venuesDetailsViewController! as UIVenuesDetailsViewController
+        venuesDetailsViewController.changeIdWithVenue(BOVenuesManager.sharedInstance.venues[indexPath.row]) // Change the rating
+        
+        splitViewController?.showDetailViewController(venuesDetailsViewController, sender: nil) // Show the description
     }
 
     // MARK: - Search bar delegate
