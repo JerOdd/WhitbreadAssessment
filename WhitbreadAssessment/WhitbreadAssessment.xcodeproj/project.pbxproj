@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F50C18141C907B92004EB51C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50C18131C907B92004EB51C /* AppDelegate.swift */; };
+		F50C18191C907B92004EB51C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50C18171C907B92004EB51C /* Main.storyboard */; };
+		F50C181B1C907B92004EB51C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F50C181A1C907B92004EB51C /* Assets.xcassets */; };
+		F50C181E1C907B92004EB51C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50C181C1C907B92004EB51C /* LaunchScreen.storyboard */; };
+		F50C18291C907B93004EB51C /* WhitbreadAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50C18281C907B93004EB51C /* WhitbreadAssessmentTests.swift */; };
+		F50C18341C907B93004EB51C /* WhitbreadAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50C18331C907B93004EB51C /* WhitbreadAssessmentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F50C18251C907B93004EB51C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F50C18081C907B92004EB51C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F50C180F1C907B92004EB51C;
+			remoteInfo = WhitbreadAssessment;
+		};
+		F50C18301C907B93004EB51C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F50C18081C907B92004EB51C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F50C180F1C907B92004EB51C;
+			remoteInfo = WhitbreadAssessment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F50C18101C907B92004EB51C /* WhitbreadAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhitbreadAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50C18131C907B92004EB51C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F50C18181C907B92004EB51C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F50C181A1C907B92004EB51C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F50C181D1C907B92004EB51C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F50C181F1C907B92004EB51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F50C18241C907B93004EB51C /* WhitbreadAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhitbreadAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50C18281C907B93004EB51C /* WhitbreadAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhitbreadAssessmentTests.swift; sourceTree = "<group>"; };
+		F50C182A1C907B93004EB51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F50C182F1C907B93004EB51C /* WhitbreadAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhitbreadAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50C18331C907B93004EB51C /* WhitbreadAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhitbreadAssessmentUITests.swift; sourceTree = "<group>"; };
+		F50C18351C907B93004EB51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F50C180D1C907B92004EB51C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50C18211C907B93004EB51C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50C182C1C907B93004EB51C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F50C18071C907B92004EB51C = {
+			isa = PBXGroup;
+			children = (
+				F50C18121C907B92004EB51C /* WhitbreadAssessment */,
+				F50C18271C907B93004EB51C /* WhitbreadAssessmentTests */,
+				F50C18321C907B93004EB51C /* WhitbreadAssessmentUITests */,
+				F50C18111C907B92004EB51C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F50C18111C907B92004EB51C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F50C18101C907B92004EB51C /* WhitbreadAssessment.app */,
+				F50C18241C907B93004EB51C /* WhitbreadAssessmentTests.xctest */,
+				F50C182F1C907B93004EB51C /* WhitbreadAssessmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F50C18121C907B92004EB51C /* WhitbreadAssessment */ = {
+			isa = PBXGroup;
+			children = (
+				F50C18411C907C57004EB51C /* 0 - Common */,
+				F50C18421C907C67004EB51C /* 1 - DAO */,
+				F50C18431C907C79004EB51C /* 2 - Business */,
+				F50C18441C907C86004EB51C /* 3 - UI */,
+				F50C18451C907CAA004EB51C /* 4 - Application */,
+			);
+			path = WhitbreadAssessment;
+			sourceTree = "<group>";
+		};
+		F50C18271C907B93004EB51C /* WhitbreadAssessmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				F50C18281C907B93004EB51C /* WhitbreadAssessmentTests.swift */,
+				F50C182A1C907B93004EB51C /* Info.plist */,
+			);
+			path = WhitbreadAssessmentTests;
+			sourceTree = "<group>";
+		};
+		F50C18321C907B93004EB51C /* WhitbreadAssessmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F50C18331C907B93004EB51C /* WhitbreadAssessmentUITests.swift */,
+				F50C18351C907B93004EB51C /* Info.plist */,
+			);
+			path = WhitbreadAssessmentUITests;
+			sourceTree = "<group>";
+		};
+		F50C18411C907C57004EB51C /* 0 - Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "0 - Common";
+			sourceTree = "<group>";
+		};
+		F50C18421C907C67004EB51C /* 1 - DAO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "1 - DAO";
+			sourceTree = "<group>";
+		};
+		F50C18431C907C79004EB51C /* 2 - Business */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "2 - Business";
+			sourceTree = "<group>";
+		};
+		F50C18441C907C86004EB51C /* 3 - UI */ = {
+			isa = PBXGroup;
+			children = (
+				F50C18171C907B92004EB51C /* Main.storyboard */,
+				F50C181C1C907B92004EB51C /* LaunchScreen.storyboard */,
+				F50C181A1C907B92004EB51C /* Assets.xcassets */,
+			);
+			name = "3 - UI";
+			sourceTree = "<group>";
+		};
+		F50C18451C907CAA004EB51C /* 4 - Application */ = {
+			isa = PBXGroup;
+			children = (
+				F50C181F1C907B92004EB51C /* Info.plist */,
+				F50C18131C907B92004EB51C /* AppDelegate.swift */,
+			);
+			name = "4 - Application";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F50C180F1C907B92004EB51C /* WhitbreadAssessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50C18381C907B93004EB51C /* Build configuration list for PBXNativeTarget "WhitbreadAssessment" */;
+			buildPhases = (
+				F50C180C1C907B92004EB51C /* Sources */,
+				F50C180D1C907B92004EB51C /* Frameworks */,
+				F50C180E1C907B92004EB51C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhitbreadAssessment;
+			productName = WhitbreadAssessment;
+			productReference = F50C18101C907B92004EB51C /* WhitbreadAssessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F50C18231C907B93004EB51C /* WhitbreadAssessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50C183B1C907B93004EB51C /* Build configuration list for PBXNativeTarget "WhitbreadAssessmentTests" */;
+			buildPhases = (
+				F50C18201C907B93004EB51C /* Sources */,
+				F50C18211C907B93004EB51C /* Frameworks */,
+				F50C18221C907B93004EB51C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F50C18261C907B93004EB51C /* PBXTargetDependency */,
+			);
+			name = WhitbreadAssessmentTests;
+			productName = WhitbreadAssessmentTests;
+			productReference = F50C18241C907B93004EB51C /* WhitbreadAssessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F50C182E1C907B93004EB51C /* WhitbreadAssessmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50C183E1C907B93004EB51C /* Build configuration list for PBXNativeTarget "WhitbreadAssessmentUITests" */;
+			buildPhases = (
+				F50C182B1C907B93004EB51C /* Sources */,
+				F50C182C1C907B93004EB51C /* Frameworks */,
+				F50C182D1C907B93004EB51C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F50C18311C907B93004EB51C /* PBXTargetDependency */,
+			);
+			name = WhitbreadAssessmentUITests;
+			productName = WhitbreadAssessmentUITests;
+			productReference = F50C182F1C907B93004EB51C /* WhitbreadAssessmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F50C18081C907B92004EB51C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = JerOdd;
+				TargetAttributes = {
+					F50C180F1C907B92004EB51C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					F50C18231C907B93004EB51C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F50C180F1C907B92004EB51C;
+					};
+					F50C182E1C907B93004EB51C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F50C180F1C907B92004EB51C;
+					};
+				};
+			};
+			buildConfigurationList = F50C180B1C907B92004EB51C /* Build configuration list for PBXProject "WhitbreadAssessment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F50C18071C907B92004EB51C;
+			productRefGroup = F50C18111C907B92004EB51C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F50C180F1C907B92004EB51C /* WhitbreadAssessment */,
+				F50C18231C907B93004EB51C /* WhitbreadAssessmentTests */,
+				F50C182E1C907B93004EB51C /* WhitbreadAssessmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F50C180E1C907B92004EB51C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50C181E1C907B92004EB51C /* LaunchScreen.storyboard in Resources */,
+				F50C181B1C907B92004EB51C /* Assets.xcassets in Resources */,
+				F50C18191C907B92004EB51C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50C18221C907B93004EB51C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50C182D1C907B93004EB51C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F50C180C1C907B92004EB51C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50C18141C907B92004EB51C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50C18201C907B93004EB51C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50C18291C907B93004EB51C /* WhitbreadAssessmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50C182B1C907B93004EB51C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50C18341C907B93004EB51C /* WhitbreadAssessmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F50C18261C907B93004EB51C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F50C180F1C907B92004EB51C /* WhitbreadAssessment */;
+			targetProxy = F50C18251C907B93004EB51C /* PBXContainerItemProxy */;
+		};
+		F50C18311C907B93004EB51C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F50C180F1C907B92004EB51C /* WhitbreadAssessment */;
+			targetProxy = F50C18301C907B93004EB51C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F50C18171C907B92004EB51C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50C18181C907B92004EB51C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F50C181C1C907B92004EB51C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50C181D1C907B92004EB51C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F50C18361C907B93004EB51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F50C18371C907B93004EB51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F50C18391C907B93004EB51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WhitbreadAssessment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerodd.ios.WhitbreadAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F50C183A1C907B93004EB51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WhitbreadAssessment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerodd.ios.WhitbreadAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F50C183C1C907B93004EB51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WhitbreadAssessmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerodd.ios.WhitbreadAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhitbreadAssessment.app/WhitbreadAssessment";
+			};
+			name = Debug;
+		};
+		F50C183D1C907B93004EB51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WhitbreadAssessmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerodd.ios.WhitbreadAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhitbreadAssessment.app/WhitbreadAssessment";
+			};
+			name = Release;
+		};
+		F50C183F1C907B93004EB51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WhitbreadAssessmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerodd.ios.WhitbreadAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WhitbreadAssessment;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F50C18401C907B93004EB51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WhitbreadAssessmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerodd.ios.WhitbreadAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WhitbreadAssessment;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F50C180B1C907B92004EB51C /* Build configuration list for PBXProject "WhitbreadAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50C18361C907B93004EB51C /* Debug */,
+				F50C18371C907B93004EB51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F50C18381C907B93004EB51C /* Build configuration list for PBXNativeTarget "WhitbreadAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50C18391C907B93004EB51C /* Debug */,
+				F50C183A1C907B93004EB51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F50C183B1C907B93004EB51C /* Build configuration list for PBXNativeTarget "WhitbreadAssessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50C183C1C907B93004EB51C /* Debug */,
+				F50C183D1C907B93004EB51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F50C183E1C907B93004EB51C /* Build configuration list for PBXNativeTarget "WhitbreadAssessmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50C183F1C907B93004EB51C /* Debug */,
+				F50C18401C907B93004EB51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F50C18081C907B92004EB51C /* Project object */;
+}
