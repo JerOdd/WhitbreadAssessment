@@ -13,6 +13,10 @@
 		F50C181E1C907B92004EB51C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50C181C1C907B92004EB51C /* LaunchScreen.storyboard */; };
 		F50C18291C907B93004EB51C /* WhitbreadAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50C18281C907B93004EB51C /* WhitbreadAssessmentTests.swift */; };
 		F50C18341C907B93004EB51C /* WhitbreadAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50C18331C907B93004EB51C /* WhitbreadAssessmentUITests.swift */; };
+		F50C18471C907EA2004EB51C /* UIVenuesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50C18461C907EA2004EB51C /* UIVenuesTableViewController.swift */; };
+		F50C18491C907EF0004EB51C /* BOVenuesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50C18481C907EF0004EB51C /* BOVenuesManager.swift */; };
+		F50C184B1C907F19004EB51C /* DAOVenuesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50C184A1C907F19004EB51C /* DAOVenuesRequest.swift */; };
+		F50C184D1C907F2B004EB51C /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50C184C1C907F2B004EB51C /* Venue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		F50C182F1C907B93004EB51C /* WhitbreadAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhitbreadAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50C18331C907B93004EB51C /* WhitbreadAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhitbreadAssessmentUITests.swift; sourceTree = "<group>"; };
 		F50C18351C907B93004EB51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F50C18461C907EA2004EB51C /* UIVenuesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVenuesTableViewController.swift; sourceTree = "<group>"; };
+		F50C18481C907EF0004EB51C /* BOVenuesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BOVenuesManager.swift; sourceTree = "<group>"; };
+		F50C184A1C907F19004EB51C /* DAOVenuesRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAOVenuesRequest.swift; sourceTree = "<group>"; };
+		F50C184C1C907F2B004EB51C /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +133,7 @@
 		F50C18411C907C57004EB51C /* 0 - Common */ = {
 			isa = PBXGroup;
 			children = (
+				F50C184C1C907F2B004EB51C /* Venue.swift */,
 			);
 			name = "0 - Common";
 			sourceTree = "<group>";
@@ -132,6 +141,7 @@
 		F50C18421C907C67004EB51C /* 1 - DAO */ = {
 			isa = PBXGroup;
 			children = (
+				F50C184A1C907F19004EB51C /* DAOVenuesRequest.swift */,
 			);
 			name = "1 - DAO";
 			sourceTree = "<group>";
@@ -139,6 +149,7 @@
 		F50C18431C907C79004EB51C /* 2 - Business */ = {
 			isa = PBXGroup;
 			children = (
+				F50C18481C907EF0004EB51C /* BOVenuesManager.swift */,
 			);
 			name = "2 - Business";
 			sourceTree = "<group>";
@@ -149,6 +160,7 @@
 				F50C18171C907B92004EB51C /* Main.storyboard */,
 				F50C181C1C907B92004EB51C /* LaunchScreen.storyboard */,
 				F50C181A1C907B92004EB51C /* Assets.xcassets */,
+				F50C18461C907EA2004EB51C /* UIVenuesTableViewController.swift */,
 			);
 			name = "3 - UI";
 			sourceTree = "<group>";
@@ -293,7 +305,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F50C184B1C907F19004EB51C /* DAOVenuesRequest.swift in Sources */,
+				F50C184D1C907F2B004EB51C /* Venue.swift in Sources */,
 				F50C18141C907B92004EB51C /* AppDelegate.swift in Sources */,
+				F50C18471C907EA2004EB51C /* UIVenuesTableViewController.swift in Sources */,
+				F50C18491C907EF0004EB51C /* BOVenuesManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
