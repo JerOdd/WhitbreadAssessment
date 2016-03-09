@@ -6,8 +6,17 @@
 //  Copyright © 2016 JerOdd. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class Venue: NSObject {
-
+class Venue: NSObject
+{
+    var id : String?
+    var name : String?
+    
+    init(withDictionary dictionary : Dictionary<String,AnyObject>)
+    {
+        self.name = dictionary["name"] as! String
+        self.id = dictionary["id"] as! String
+    }
 }
+

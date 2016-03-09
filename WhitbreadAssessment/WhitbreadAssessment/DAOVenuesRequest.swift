@@ -44,9 +44,16 @@ class DAOVenuesRequest: NSObject
                         // Parse the json into dictionary
                         let json = try NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.AllowFragments)
                         
-                        // Create the venue
-                        let venues = Array<Venue>()
-                        print(json)
+                        let responseDictionary = json["response"] as! Dictionary<String,AnyObject>
+                        let venuesDictionary = responseDictionary["venues"]
+                        var venues : Array<Venue> = Array<Venue>()
+                        
+                        for var i = 0; i < venuesDictionary?.count; i++
+                        {
+                            let venueDictionary = venuesDictionary?.objectAtIndex(i) as! Dictionary<String,AnyObject>
+                            let venue = Venue.init(withDictionary: venueDictionary)
+                            venues.append(venue)
+                        }
                         
                         // We need to perform this code on the main thread
                         dispatch_async(dispatch_get_main_queue(),
