@@ -8,7 +8,8 @@
 
 import UIKit
 
-class UIVenuesDetailsViewController: UIViewController {
+class UIVenuesDetailsViewController: UIViewController
+{
     
     @IBOutlet weak var idLabel: UILabel!
     
@@ -18,12 +19,11 @@ class UIVenuesDetailsViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
+    /**
+     * Change the content of the id value with the new one
+     * - Parameter venue : The new venue
+     */
     func changeIdWithVenue(venue : Venue)
     {
         self.idLabel.text = venue.id

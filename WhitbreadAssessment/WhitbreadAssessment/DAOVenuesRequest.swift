@@ -54,7 +54,7 @@ class DAOVenuesRequest: NSObject
                         for var i = 0; i < venuesDictionary?.count; i++
                         {
                             let venueDictionary = venuesDictionary?.objectAtIndex(i) as! Dictionary<String,AnyObject>
-                            let venue = Venue.init(withDictionary: venueDictionary)
+                            let venue = Venue.init(withDictionary: venueDictionary) // Creation of venue
                             venues.append(venue)
                         }
                         

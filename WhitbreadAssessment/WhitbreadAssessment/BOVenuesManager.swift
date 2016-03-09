@@ -21,7 +21,7 @@ class BOVenuesManager: NSObject, DAOVenuesRequestDelegate
     static let sharedInstance = BOVenuesManager() // The manager is a singleton
     
     var delegate : BOVenuesManagerDelegate?
-    var venues : Array<Venue> = Array<Venue>()
+    var venues : Array<Venue> = Array<Venue>() // Array of venues
     
     /**
      * Search the venues for a given place

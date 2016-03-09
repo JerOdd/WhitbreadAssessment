@@ -11,7 +11,7 @@ import UIKit
 class UIVenuesTableViewController: UITableViewController, UISearchBarDelegate, BOVenuesManagerDelegate
 {
 
-    @IBOutlet weak var placeSearchBar: UISearchBar!
+    @IBOutlet weak var placeSearchBar: UISearchBar! // The search bar to find venues with a given place
     
     // MARK: - View lifecycle
     
@@ -40,10 +40,10 @@ class UIVenuesTableViewController: UITableViewController, UISearchBarDelegate, B
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
     {
-        let venuesDetailsViewController : UIVenuesDetailsViewController = (UIApplication.sharedApplication().delegate as? AppDelegate)!.venuesDetailsViewController! as UIVenuesDetailsViewController
+        let venuesDetailsViewController : UIVenuesDetailsViewController = (UIApplication.sharedApplication().delegate as? AppDelegate)!.venuesDetailsViewController! as UIVenuesDetailsViewController // Get the details controller
         venuesDetailsViewController.changeIdWithVenue(BOVenuesManager.sharedInstance.venues[indexPath.row]) // Change the rating
         
-        splitViewController?.showDetailViewController(venuesDetailsViewController, sender: nil) // Show the description
+        splitViewController?.showDetailViewController(venuesDetailsViewController, sender: nil) // Show the detail
     }
 
     // MARK: - Search bar delegate
