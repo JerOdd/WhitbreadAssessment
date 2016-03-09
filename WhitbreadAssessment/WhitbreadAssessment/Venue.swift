@@ -15,8 +15,9 @@ class Venue: NSObject
     
     init(withDictionary dictionary : Dictionary<String,AnyObject>)
     {
-        self.name = dictionary["name"] as! String
-        self.id = dictionary["id"] as! String
+        super.init()
+        self.name = dictionary["name"] as? String
+        self.id = dictionary["id"] as? String
     }
 }
 

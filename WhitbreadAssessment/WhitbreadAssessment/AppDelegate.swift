@@ -13,13 +13,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    var venuesSplitViewController : UIVenuesSplitViewController?
+    var venuesTableViewController : UIVenuesTableViewController?
+    var venuesDetailsViewController : UIVenuesDetailsViewController?
 
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool
+    {
+        venuesSplitViewController = window?.rootViewController as? UIVenuesSplitViewController // Get the venuesSplitViewController
+        venuesTableViewController = venuesSplitViewController?.viewControllers.first as? UIVenuesTableViewController // Get the UIVenuesTableViewController
+        venuesDetailsViewController = venuesSplitViewController?.viewControllers.last as? UIVenuesDetailsViewController
         // Override point for customization after application launch.
         return true
     }
 
-    func applicationWillResignActive(application: UIApplication) {
+    func applicationWillResignActive(application: UIApplication)
+    {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
     }

@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Venues Details View Controller-->
         <scene sceneID="jd9-cs-hiV">
             <objects>
-                <viewController id="sec-bC-Mz6" sceneMemberID="viewController">
+                <viewController id="sec-bC-Mz6" customClass="UIVenuesDetailsViewController" customModule="WhitbreadAssessment" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uaw-QA-azS"/>
                         <viewControllerLayoutGuide type="bottom" id="w40-UG-9Zc"/>
@@ -23,14 +23,14 @@
             </objects>
             <point key="canvasLocation" x="521" y="608"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Search a place-->
         <scene sceneID="VuI-5l-hDL">
             <objects>
                 <tableViewController clearsSelectionOnViewWillAppear="NO" id="cil-wS-jpl" customClass="UIVenuesTableViewController" customModule="WhitbreadAssessment" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Nhi-4y-uod">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="Nhi-4y-uod">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <searchBar key="tableHeaderView" contentMode="redraw" id="gFW-5g-sh3">
                             <rect key="frame" x="0.0" y="64" width="600" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -41,7 +41,7 @@
                         </searchBar>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="venuesCellIdentifier" id="Oqi-MD-KRa">
-                                <rect key="frame" x="0.0" y="136" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="157.5" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Oqi-MD-KRa" id="Rbx-Zj-vZC">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
@@ -54,7 +54,7 @@
                             <outlet property="delegate" destination="cil-wS-jpl" id="DGW-R6-F90"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="V0h-lg-0V4"/>
+                    <navigationItem key="navigationItem" title="Search a place" id="V0h-lg-0V4"/>
                     <connections>
                         <outlet property="placeSearchBar" destination="gFW-5g-sh3" id="xbx-sI-VcO"/>
                         <outlet property="searchDisplayController" destination="ZQt-99-dj3" id="GX6-DG-va6"/>
@@ -88,10 +88,10 @@
             </objects>
             <point key="canvasLocation" x="521" y="-53"/>
         </scene>
-        <!--Split View Controller-->
+        <!--Venues Split View Controller-->
         <scene sceneID="klF-bJ-7HK">
             <objects>
-                <splitViewController id="k02-1N-4aZ" sceneMemberID="viewController">
+                <splitViewController id="k02-1N-4aZ" customClass="UIVenuesSplitViewController" customModule="WhitbreadAssessment" customModuleProvider="target" sceneMemberID="viewController">
                     <connections>
                         <segue destination="0TC-i5-Gp3" kind="relationship" relationship="masterViewController" id="x0p-Z4-ymW"/>
                         <segue destination="sec-bC-Mz6" kind="relationship" relationship="detailViewController" id="6IJ-Ja-VRw"/>

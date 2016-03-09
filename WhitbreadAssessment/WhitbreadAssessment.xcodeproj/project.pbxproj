@@ -17,6 +17,8 @@
 		F50C18491C907EF0004EB51C /* BOVenuesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50C18481C907EF0004EB51C /* BOVenuesManager.swift */; };
 		F50C184B1C907F19004EB51C /* DAOVenuesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50C184A1C907F19004EB51C /* DAOVenuesRequest.swift */; };
 		F50C184D1C907F2B004EB51C /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50C184C1C907F2B004EB51C /* Venue.swift */; };
+		F50C184F1C90919D004EB51C /* UIVenuesSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50C184E1C90919D004EB51C /* UIVenuesSplitViewController.swift */; };
+		F50C18511C9093CF004EB51C /* UIVenuesDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50C18501C9093CF004EB51C /* UIVenuesDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		F50C18481C907EF0004EB51C /* BOVenuesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BOVenuesManager.swift; sourceTree = "<group>"; };
 		F50C184A1C907F19004EB51C /* DAOVenuesRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAOVenuesRequest.swift; sourceTree = "<group>"; };
 		F50C184C1C907F2B004EB51C /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		F50C184E1C90919D004EB51C /* UIVenuesSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVenuesSplitViewController.swift; sourceTree = "<group>"; };
+		F50C18501C9093CF004EB51C /* UIVenuesDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVenuesDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +165,8 @@
 				F50C181C1C907B92004EB51C /* LaunchScreen.storyboard */,
 				F50C181A1C907B92004EB51C /* Assets.xcassets */,
 				F50C18461C907EA2004EB51C /* UIVenuesTableViewController.swift */,
+				F50C184E1C90919D004EB51C /* UIVenuesSplitViewController.swift */,
+				F50C18501C9093CF004EB51C /* UIVenuesDetailsViewController.swift */,
 			);
 			name = "3 - UI";
 			sourceTree = "<group>";
@@ -308,8 +314,10 @@
 				F50C184B1C907F19004EB51C /* DAOVenuesRequest.swift in Sources */,
 				F50C184D1C907F2B004EB51C /* Venue.swift in Sources */,
 				F50C18141C907B92004EB51C /* AppDelegate.swift in Sources */,
+				F50C18511C9093CF004EB51C /* UIVenuesDetailsViewController.swift in Sources */,
 				F50C18471C907EA2004EB51C /* UIVenuesTableViewController.swift in Sources */,
 				F50C18491C907EF0004EB51C /* BOVenuesManager.swift in Sources */,
+				F50C184F1C90919D004EB51C /* UIVenuesSplitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

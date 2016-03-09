@@ -10,6 +10,9 @@ import Foundation
 
 protocol BOVenuesManagerDelegate: class
 {
+    /**
+     * Called when we have received new venues
+     */
     func didReceiveVenues()
 }
 
@@ -20,19 +23,36 @@ class BOVenuesManager: NSObject, DAOVenuesRequestDelegate
     var delegate : BOVenuesManagerDelegate?
     var venues : Array<Venue> = Array<Venue>()
     
+    /**
+     * Search the venues for a given place
+     */
     func searchVenuesForPlace(place : String)
     {
+        // Creation of new request
         let venuesRequest = DAOVenuesRequest()
         venuesRequest.delegate = self
+        
+        // Send a request to download the venues for a given place
         venuesRequest.downloadVenueForPlace(place)
     }
     
+    /**
+     * Called when we have received new venues for a place
+     * - Parameter venues: the received venues
+     * - Parameter place: the searched place
+     */
     func didReceiveVenues(venues: Array<Venue>, forPlace place: String)
     {
         self.venues = venues
+        
+        // Notify the delegate that we have received new values
         self.delegate?.didReceiveVenues()
     }
     
+    /**
+     * Called when we failed to receive venues for a place
+     * - Parameter place: the searched place
+     */
     func didFailToReceiveVenuesforPlace(place: String)
     {
         

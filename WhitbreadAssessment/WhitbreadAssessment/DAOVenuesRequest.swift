@@ -44,8 +44,11 @@ class DAOVenuesRequest: NSObject
                         // Parse the json into dictionary
                         let json = try NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.AllowFragments)
                         
+                        // Get the venues dictionary
                         let responseDictionary = json["response"] as! Dictionary<String,AnyObject>
                         let venuesDictionary = responseDictionary["venues"]
+                        
+                        // Creation of the list of venues
                         var venues : Array<Venue> = Array<Venue>()
                         
                         for var i = 0; i < venuesDictionary?.count; i++
